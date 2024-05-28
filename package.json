@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "start:dev": "ts-node src/main.ts",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest",
     "test:coverage": "npm run test -- --coverage"
   },
