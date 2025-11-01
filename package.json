@@ -1,16 +1,20 @@
 {
   "name": "typescript-bootstrap",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
-    "start:dev": "ts-node src/main.ts",
+    "start:dev": "tsx src/main.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "jest",
     "test:coverage": "npm run test -- --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "bootstrap",
+    "template"
+  ],
   "author": "Gracjan Pietruszyński",
   "license": "MIT",
   "description": "A TypeScript bootstrap for my personal projects.",
@@ -20,7 +24,7 @@
     "@types/node": "^24.9.2",
     "eslint": "^9.39.0",
     "jest": "^30.2.0",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.2"
   }
