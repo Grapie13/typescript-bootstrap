@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "target": "ES2024",
     "module": "CommonJS",
+    "types": ["node", "jest"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
