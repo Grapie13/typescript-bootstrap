@@ -1,6 +1,6 @@
 {
   "name": "typescript-bootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
@@ -10,7 +10,11 @@
     "test": "jest",
     "test:coverage": "npm run test -- --coverage"
   },
-  "keywords": ["typescript", "bootstrap", "template"],
+  "keywords": [
+    "typescript",
+    "bootstrap",
+    "template"
+  ],
   "author": "Gracjan Pietruszyński",
   "license": "MIT",
   "description": "A TypeScript bootstrap for my personal projects.",
